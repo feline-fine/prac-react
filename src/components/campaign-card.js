@@ -13,23 +13,20 @@ const CampaignCard = () => {
             className="absolute inset-0 w-full h-full object-cover"
           />
         </div>
-        <div className="p-3 flex flex-col justify-between w-1/2">
-            <p className="text-xs font-josefins font-medium">Location: California</p>
-            <p className="text-xs font-josefins font-medium">Date: 30-10-24</p>
+        <div className="p-4 flex flex-col justify-between w-1/2">
+        <p className="text-sm font-josefins font-medium">Riphah Green Club</p>
+            <p className="text-xs font-josefins font-medium">Location: <span className="text-xs font-josefins font-light">California</span></p>
+            <p className="text-xs font-josefins font-medium">Date: <span className="text-xs font-josefins font-light">30-10-24</span></p>
             <div className="flex items-center mt-2">
-            {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-            </svg> */}
-
                 <UserGroupIcon className="w-4 h-4 mr-2 text-light-black" />  {/*Use the UserCircleIcon */}
                 <p className="text-xs font-josefins">17 volunteers</p>
             </div>
             <div className="flex items-center justify-between">
                 <div>
-                <div className="bg-gray-300 h-2 rounded-full overflow-hidden">
-                    <div className="bg-nav-green h-full" style={{ width: '90%' }}></div> {/* Adjust width dynamically based on progress */}
+                <div className="bg-sage-100 h-2 rounded-full overflow-hidden border-2 border-sage-200">
+                    <div className="bg-nav-green h-full" style={{ width: '80%' }}></div> {/* Adjust width dynamically based on progress */}
                 </div>
-                <p className="text-xs font-josefins mt-1">900$ raised of 1000$</p>
+                <p className="text-xs font-josefins mt-1">800$ raised of 1000$</p>
                 </div>
             </div>
         </div>
