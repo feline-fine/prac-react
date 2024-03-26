@@ -15,7 +15,7 @@ const Sidebar = () => {
         <img src={logo} alt="Logo" className="w-14 mb-5" />
       </div>
       <hr className="w-full border-t border-black border-opacity-15 my-4" />
-      <ul className="font-josefinsans font-light text-sm text-darkgray-700 ml-3">
+      <ul className="font-josefins font-light text-sm text-darkgray-700 ml-3">
         <li className="my-4 pl-4">Dashboard</li>
         <li className="my-4 pl-4">Campaigns</li>
         <li className="my-4 pl-4">Team</li>
