@@ -1,17 +1,17 @@
 /* App.css or index.css */
-.App {
+/* .App {
   display: flex;
-  justify-content: center; /* Center horizontally */
+  justify-content: center; 
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr auto; /* Sidebar takes 1 fraction, campaign cards take remaining */
-  gap: 20px; /* Adjust the gap as needed */
+  grid-template-columns: 1fr auto; 
+  gap: 20px; 
 }
 
 .campaign-card-container {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-}
+  justify-content: center;
+  align-items: center; 
+} */
