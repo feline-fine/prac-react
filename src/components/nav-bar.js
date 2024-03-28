@@ -5,7 +5,7 @@ const NavBar = () => {
     return(
         <nav class="bg-nav-green fixed w-full z-20 top-0 start-0">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <a href="../App.js" class="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src={logo} class="h-8" alt="Flowbite Logo"></img>
                 </a>
                 <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -20,25 +20,25 @@ const NavBar = () => {
                 <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                     <ul class="flex flex-col p-4 md:p-0 mt-4 font-josefins text-sm md:space-x-4 rtl:space-x-reverse md:flex-row md:mt-0 ">
                         <li>
-                            <a href="#" class="block py-2 px-3 text-light-black hover:text-white" aria-current="page">Home</a>
+                            <a href="../App.js" class="block py-2 px-3 text-light-black hover:text-white" aria-current="page">Home</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 px-3 text-light-black hover:text-white">Shop</a>
+                            <a href="../App.js" class="block py-2 px-3 text-light-black hover:text-white">Shop</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 px-3 text-light-black hover:text-white">Campaigns</a>
+                            <a href="../App.js" class="block py-2 px-3 text-light-black hover:text-white">Campaigns</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 px-3 text-light-black hover:text-white">Plantify Network</a>
+                            <a href="../App.js" class="block py-2 px-3 text-light-black hover:text-white">Plantify Network</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 px-3 text-light-black hover:text-white">Personal Growth</a>
+                            <a href="../App.js" class="block py-2 px-3 text-light-black hover:text-white">Personal Growth</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 px-3 text-light-black hover:text-white">About us</a>
+                            <a href="../App.js" class="block py-2 px-3 text-light-black hover:text-white">About us</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 px-3 text-light-black hover:text-white">Contact us</a>
+                            <a href="../App.js" class="block py-2 px-3 text-light-black hover:text-white">Contact us</a>
                         </li>
                     </ul>
                 </div>
